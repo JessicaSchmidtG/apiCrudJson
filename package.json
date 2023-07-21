@@ -1,0 +1,33 @@
+{
+  "name": "crudapijson",
+  "version": "1.0.0",
+  "description": "Criar pasta do projeto\r ```\r mkdir crudApiJson\r ```\r Acessar a pasta\r ```\r cd crudApiJson\r ```\r Inciar gerenciador de pacotes\r ```\r npm init -y\r ```\r Instalar pacotes básicos para rodar o servidor\r ```\r npm i typescript express nodemon ts-node\r ```\r Iniciar configuração do typescript\r ```\r npx tsc --init\r ```\r Criar pasta src\r ```\r mkdir src\r ```\r Criar arquivo server.ts dentro da pasta src\r ```\r touch src/server.ts\r ```\r Criar arquivo de banco de dados\r ```\r touch database.json\r ```\r Criar um objeto vazio no arquivo database.json\r ```\r {}\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node": "^20.4.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreivupt/crudApiJson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andreivupt/crudApiJson/issues"
+  },
+  "homepage": "https://github.com/andreivupt/crudApiJson#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17"
+  }
+}
