@@ -11,9 +11,9 @@ router.get('/users', userController.listUsers);
 router.post('/users', userController.createUser);
     
 //Editar usuario
-//router.put('/user/:id', userController.editUser);
+router.put('/user/:id', userController.editUser);
    
 
-//router.delete('/user/:id', userController.deleteUser);
+router.delete('/user/:id', userController.deleteUser);
 
 export default router;
